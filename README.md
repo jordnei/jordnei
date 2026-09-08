@@ -4,7 +4,7 @@
 
 Construo sistemas de IA aplicados a operações reais, do entendimento do problema à integração, aos testes e à adoção. Na [Reprotel Marketing Hoteleiro](https://github.com/Reprotel-Marketing-Hoteleiro), trabalho na evolução da **RAI**, plataforma interna de dados, agentes e automações.
 
-Minha trajetória em mídia paga e coordenação de performance me ajuda a entender o problema por dentro antes de transformá-lo em software.
+Minha trajetória em mídia paga e coordenação de performance me ajuda a entender o problema por dentro antes de transformá-lo em software. Sou bacharel em Ciência da Computação pelo CESUPA.
 
 ## Em produção
 
