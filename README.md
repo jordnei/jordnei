@@ -26,8 +26,4 @@ Projetos públicos sobre **RAG com citações e avaliação**, **agentes com too
 
 [LinkedIn](https://www.linkedin.com/in/jordneigadelha) · [E-mail](mailto:jordneig@gmail.com)
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jordnei/jordnei/output/contribution-flow-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/jordnei/jordnei/output/contribution-flow.svg" />
-  <img alt="Animação das contribuições de Jórdnei no GitHub" src="https://raw.githubusercontent.com/jordnei/jordnei/output/contribution-flow.svg" />
-</picture>
+<img src="./assets/agent-flow.svg" width="100%" alt="Fluxo animado de um agente de IA entre entrada, contexto, ferramentas e resposta" />

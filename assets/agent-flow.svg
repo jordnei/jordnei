@@ -1,0 +1,64 @@
+<svg width="1000" height="180" viewBox="0 0 1000 180" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Fluxo de um agente de IA</title>
+  <desc id="desc">Um sinal percorre um fluxo entre entrada, roteamento, contexto, ferramentas, memória e resposta.</desc>
+
+  <style>
+    .track { stroke: #D0D7DE; stroke-width: 1.5; }
+    .node { fill: #F6F8FA; stroke: #8C959F; stroke-width: 1.5; }
+    .core { fill: #FFFFFF; stroke: #0969DA; stroke-width: 2; }
+    .label { fill: #57606A; font: 600 12px ui-monospace, SFMono-Regular, Consolas, monospace; letter-spacing: .5px; }
+    .signal { fill: #0969DA; }
+    .route { stroke: #0969DA; stroke-width: 2; stroke-linecap: round; stroke-dasharray: 5 11; opacity: .72; animation: route 9s linear infinite; }
+
+    @keyframes route {
+      to { stroke-dashoffset: -96; }
+    }
+
+    @media (prefers-color-scheme: dark) {
+      .track { stroke: #30363D; }
+      .node { fill: #0D1117; stroke: #484F58; }
+      .core { fill: #0D1117; stroke: #58A6FF; }
+      .label { fill: #8B949E; }
+      .signal { fill: #58A6FF; }
+      .route { stroke: #58A6FF; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .route { animation: none; }
+      .signal { display: none; }
+    }
+  </style>
+
+  <path class="track" d="M72 90H234" />
+  <path class="track" d="M286 90C350 90 350 35 430 35H645C714 35 714 90 774 90" />
+  <path class="track" d="M286 90H774" />
+  <path class="track" d="M286 90C350 90 350 145 430 145H645C714 145 714 90 774 90" />
+  <path class="track" d="M826 90H928" />
+
+  <path class="route" d="M286 90C350 90 350 35 430 35H645C714 35 714 90 774 90" />
+  <path class="route" d="M286 90H774" opacity=".45" />
+  <path class="route" d="M286 90C350 90 350 145 430 145H645C714 145 714 90 774 90" opacity=".28" />
+
+  <rect class="core" x="34" y="72" width="38" height="36" rx="8" />
+  <path class="core" d="M260 66L286 90L260 114L234 90L260 66Z" />
+  <rect class="node" x="468" y="17" width="138" height="36" rx="8" />
+  <rect class="node" x="468" y="72" width="138" height="36" rx="8" />
+  <rect class="node" x="468" y="127" width="138" height="36" rx="8" />
+  <circle class="core" cx="800" cy="90" r="26" />
+  <rect class="core" x="928" y="72" width="38" height="36" rx="8" />
+
+  <text class="label" x="53" y="132" text-anchor="middle">ENTRADA</text>
+  <text class="label" x="260" y="137" text-anchor="middle">ROUTER</text>
+  <text class="label" x="537" y="40" text-anchor="middle">CONTEXTO</text>
+  <text class="label" x="537" y="95" text-anchor="middle">FERRAMENTAS</text>
+  <text class="label" x="537" y="150" text-anchor="middle">MEMÓRIA</text>
+  <text class="label" x="800" y="137" text-anchor="middle">VALIDAÇÃO</text>
+  <text class="label" x="947" y="132" text-anchor="middle">RESPOSTA</text>
+
+  <circle class="signal" r="5">
+    <animateMotion dur="7s" repeatCount="indefinite" path="M53 90H260C350 90 350 35 430 35H645C714 35 714 90 800H947" />
+  </circle>
+  <circle class="signal" r="4" opacity=".72">
+    <animateMotion dur="7s" begin="-2.2s" repeatCount="indefinite" path="M53 90H260C350 90 350 145 430 145H645C714 145 714 90 800H947" />
+  </circle>
+</svg>
