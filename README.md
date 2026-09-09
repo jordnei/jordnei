@@ -4,7 +4,7 @@
 
 I build agents, automations, and internal products for real operations.
 
-- Building **RAI**, an internal platform for agents and automations at [Reprotel Marketing Hoteleiro](https://github.com/Reprotel-Marketing-Hoteleiro), with TypeScript, React, Supabase/PostgreSQL, and REST APIs.
+- Building **RAI**, an internal platform for agents and automations at Reprotel, with TypeScript, React, Supabase/PostgreSQL, and REST APIs.
 - Shipped an Ads automation used across **150+ accounts** to publish **1,000+ ads**, cutting execution time by **~90%**.
 - Developing LLM workflows for performance analysis across Meta Ads, Google Ads, and GA4.
 - B.Sc. in Computer Science.
