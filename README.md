@@ -14,5 +14,3 @@ I build agents, automations, and internal products for real operations.
 `TypeScript` · `JavaScript` · `React` · `PostgreSQL` · `Supabase` · `LLMs`
 
 [LinkedIn](https://www.linkedin.com/in/jordneigadelha) · [Email](mailto:jordneig@gmail.com)
-
-<img src="./assets/agent-flow.svg" width="100%" alt="Animated AI agent flow from input through context and tools to a validated response" />
